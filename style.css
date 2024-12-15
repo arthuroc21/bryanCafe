@@ -1,0 +1,111 @@
+/* Bootstrap-enhanced CSS */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+/* Page styling */
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 28px;
+  color: #000;
+}
+
+.nav-link {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #f8f9fa;
+}
+
+.hero h1 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 48px;
+  color: #000;
+}
+
+.hero p {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Cards styling */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+.card-text {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  font-family: "Roboto-Medium", sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

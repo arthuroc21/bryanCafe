@@ -1,0 +1,12 @@
+<!-- menu.dtd -->
+<!ELEMENT menu (meals, beverages)>
+<!ELEMENT meals (meal*)>
+<!ELEMENT meal (name, description)>
+<!ATTLIST meal price CDATA #REQUIRED>
+<!ATTLIST meal image CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT beverages (beverage*)>
+<!ELEMENT beverage (name, description)>
+<!ATTLIST beverage price CDATA #REQUIRED>
+<!ATTLIST beverage image CDATA #REQUIRED>

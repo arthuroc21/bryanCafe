@@ -1,0 +1,47 @@
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+    <meals>
+        <meal price="15.00" image="beetroot-salad.jpg">
+            <name>Beetroot and Feta Salad</name>
+            <description>Suitable for vegetarians, made with fresh beetroot.</description>
+        </meal>
+        <meal price="18.00" image="rye-sandwich.jpg">
+            <name>Sourdough Rye Sandwich</name>
+            <description>Cheese and salad sandwich made with organic rye bread.</description>
+        </meal>
+        <meal price="20.00" image="spinach-pie.jpg">
+            <name>Spinach Pie and Salad</name>
+            <description>Tasty pie served with fresh salad.</description>
+        </meal>
+        <meal price="19.50" image="feta-pancakes.jpg">
+            <name>Feta Pancakes with Salad</name>
+            <description>Tasty pancake filled with feta and salad.</description>
+        </meal>
+    </meals>
+    <beverages>
+        <beverage price="3.50" image="small-coffee.jpg">
+            <name>Small Coffee</name>
+            <description>For coffee, please inform the staff of the coffee type.</description>
+        </beverage>
+        <beverage price="4.00" image="regular-coffee.jpg">
+            <name>Regular Coffee</name>
+            <description>For coffee, please inform the staff of the coffee type.</description>
+        </beverage>
+        <beverage price="4.50" image="large-coffee.jpg">
+            <name>Large Coffee</name>
+            <description>For coffee, please inform the staff of the coffee type.</description>
+        </beverage>
+        <beverage price="3.00" image="soda.jpg">
+            <name>Soda</name>
+            <description>Refreshing carbonated drink.</description>
+        </beverage>
+        <beverage price="6.00" image="fresh-juice.jpg">
+            <name>Fresh Juice</name>
+            <description>Choose from a variety of seasonal fruits for a refreshing drink.</description>
+        </beverage>
+        <beverage price="2.00" image="bottled-water.jpg">
+            <name>Bottled Water</name>
+            <description>Pure and fresh bottled water.</description>
+        </beverage>
+    </beverages>
+</menu>
